@@ -1,0 +1,31 @@
+/* to work with CSS; step 1 select an element step 2 perform some action*/
+body{
+  background-color: #ff33cc;
+  color: purple;
+  background-image: url("http://www.fg-a.com/wallpapers/red-flow-1920.jpg");
+  /*background-color: rgba(12 36,42, 1);*/
+}
+
+h1{
+  color:red;
+  border:1px solid green;
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+button{
+  color:black;
+  border:1px solid green;
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 20px;
+  text-shadow: 2px 2px #FF0000;
+}
+
+span{
+  color:blue;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 15px;
+
+}

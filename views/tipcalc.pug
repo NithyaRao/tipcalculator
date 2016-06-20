@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    title My Awesome Tip Calculator
+    link(href='/style.css', rel='stylesheet')
+  body(style='background-color:' + color)
+    h1 Super Tip Calculator!!!
+    form(action='/tipcalc', method='post')
+      span Amount:
+      input(type='number', name='amt', value=amt)
+      #tip
+      span Tip:
+      select(name= 'percent')
+        option 5%
+        option 10%
+        option 15%
+        option 20%
+      #submit
+      button(type='submit') Compute Tip
+      #tipamt
+      span Tip is:
+      span= tipamt
